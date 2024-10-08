@@ -1,0 +1,13 @@
+.env
+.idea/
+Log/*
+.vscode/*
+*.out
+main
+main.exe
+.DS_Store
+__debug_bin
+cover.out
+*.cov
+.zip
+*.exe

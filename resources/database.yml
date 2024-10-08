@@ -1,0 +1,13 @@
+mysqlserver:
+    server: "${MYSQLDB_SERVER}"
+    databaseName: "${MYSQLDB}"
+    username: "${MYSQLDB_USERID}"
+    password: "${MYSQLDB_PASSWORD}"
+    maxOpenConnections: 3
+    maxIdleConnections: 1
+    connectionMaxLifetimeInSeconds: 90
+    connectionMaxIdleTimeInSeconds: 30
+    port: 3306
+
+   
+

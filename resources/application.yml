@@ -1,0 +1,8 @@
+encryptionkey: "${ENCRYPTION}"
+jwt_key: "${JWTKEY}"
+superuserkey: "${SUPERUSERKEY}"
+s3-bucket: "${BUCKET}" 
+s3-bucket-url: "${BUCKETURL}"
+emailpwd : "${EMAILPWD}"
+smtserver : "smtpout.secureserver.net"
+

@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  ms-pet-socket:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ms-pet-socket
+    container_name: "ms-pet-socket"
+    ports:
+      - "8001:8001"
+    restart: unless-stopped

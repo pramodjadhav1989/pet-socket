@@ -1,0 +1,7 @@
+sms :
+   api : "${SMSAPI}"
+   username : "${SMSUSERNAME}"
+   password : "${SMSPWD}"
+   senderid : "${SMSSENDERID}"
+   dltlogintemplate : "	Dear Petlover, use this OTP - %s to login to your account. This OTP is valid for next 5 mins.ADVIKA PETWORLD PRIVATE LIMITED"
+   
